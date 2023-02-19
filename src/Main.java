@@ -38,12 +38,42 @@ public class Main {
 //    }
 //}
 
-        marks m1 = new marks();
-        m1.name = "kulwinder";
-        m1.math = 89;
-        m1.science = 56;
-        m1.chemistry = 78;
+//        marks m1 = new marks();
+//        m1.name = "kulwinder";
+//        m1.math = 89;
+//        m1.sci = 56;
+//        m1.chem= 78;
+//        m1.totalmarks=89+56+78;
+//
+//        m1.totalmarks();
 
-        m1.totalmarks();
+
+        Student s1 = new Student();
+        s1.name = "Sam";
+        s1.phoneNumber = "1234567889";
+        s1.math = 67;
+        s1.sci = 95;
+        s1.chem = 89;
+
+        s1.Studentinfo();
+
+        Student s2 = new Student();
+        s2.name = "Pam";
+        s2.phoneNumber = "12344857889";
+        s2.math = 57;
+        s2.sci = 67;
+        s2.chem = 37;
+
+        s2.Studentinfo();
+
+        Student s3 = new Student();
+        s3.name = "tom";
+        s3.phoneNumber = "12300567889";
+        s3.math = 90;
+        s3.sci = 88;
+        s3.chem = 55;
+
+        s3.Studentinfo();
+
     }
 }
